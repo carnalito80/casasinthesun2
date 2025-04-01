@@ -2,7 +2,7 @@ import FlatList from "./FlatList"
 import Banner from "./Banner"
 import React from "react"
 import Title from "./Title"
-import Subscribe from "./Subscribe"
+import Subscribe from "./Form/Subscribe"
 import { useState, useEffect } from "react";
 import * as contentful from "contentful"
 import MalagaGeneral from "./MalagaGeneral"

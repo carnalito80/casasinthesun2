@@ -5,7 +5,7 @@ import { serialize } from 'dom-form-serializer'
 // import './Form.css'
 class Subscribe extends React.Component {
     static defaultProps = {
-      name: 'Casas in the Sun',
+      name: 'Casas in the Sun Subscribe',
       subjectoffert: 'casasinthesun.eu', 
       action: 'https://formspree.io/f/xlepjnol', //test
       method: 'POST',
@@ -26,7 +26,7 @@ class Subscribe extends React.Component {
         const data = serialize(form)
         if (data.info !== '') {
           this.setState({
-            alert: "Informationen inte skickad (I). Tack!",
+            alert: "Information sent. Thanks! (I)",
             good: true,
             disabled: true
           })
@@ -34,7 +34,7 @@ class Subscribe extends React.Component {
         }
         if (data.matrix !== '') {
           this.setState({
-            alert: "Informationen inte skickad (E). Tack!",
+            alert: "Information sent (E). Thanks!",
             good: true,
             disabled: true
           })
@@ -42,7 +42,7 @@ class Subscribe extends React.Component {
         }
         if (data.email !== '') {
             this.setState({
-              alert: "Informationen inte skickad (E). Tack!",
+              alert: "Information sent (E). Thanks!",
               good: true,
               disabled: true
             })
@@ -131,7 +131,7 @@ class Subscribe extends React.Component {
                                             <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />
                                             <input autoComplete="off" className="Form--Shelf" type="text" name="matrix"  placeholder="your matrix"  defaultValue="" />
                                             <input autoComplete="off" className="Form--Shelf" type="text" name="info" placeholder="your info" defaultValue="" />    
-                                            <input type="email" required  name="ep" placeholder='Din E-post' className="w-100 sbs-area-inp" />
+                                            <input type="email" required  name="ep" placeholder='Your email adress' className="w-100 sbs-area-inp" />
                                       </div>
                                       <div className="col-lg-3 col-sm-6 d-flex align-items-center justify-content-between ">
                                           <input
