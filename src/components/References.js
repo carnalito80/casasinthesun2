@@ -4,8 +4,8 @@ import ReferenceItem from "./ReferenceItem"
 
 const References = () => {
     const title = {
-        text: "Till sist...",
-        description: "..några bilder från soliga Andalusien att inspireras av. Det ser härligt ut, va?"
+        text: "Finally...",
+        description: "..some inspiring photos from Andalucia!"
     }
     const settings = {
         infinite: true,
@@ -45,12 +45,14 @@ const References = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <Slider {...settings}>
-                            <ReferenceItem pic={"/img/hibiskus.webp"} alt={"en fin Hibiskus i Estepona"} />
-                            <ReferenceItem pic={"/img/sjostjarna.webp"} alt={"sjöstjärna"} />
-                            <ReferenceItem pic={"/img/blommor.webp"} alt={"blommor"} />
-                            <ReferenceItem pic={"/img/sierranevada.webp"} alt={"sierranevada"} />
-                            <ReferenceItem pic={"/img/solnedgang.webp"} alt={"solnedgang"} />
-                            <ReferenceItem pic={"/img/castillodesanluis.webp"} alt={"castillodesanluis"} />      
+                            <ReferenceItem pic={"/img/plazaortiz.webp"} alt={"Plaza Ortiz in Estepona"} />
+                            <ReferenceItem pic={"/img/vegetables.webp"} alt={"Vegetables"} />
+                            <ReferenceItem pic={"/img/flowerpots.webp"} alt={"Flower pots on the wall"} />
+                            <ReferenceItem pic={"/img/cordobaromanbridge.webp"} alt={"The Roman Bridge in Cordoba"} />
+                            <ReferenceItem pic={"/img/cadizbeach.webp"} alt={"Beach in Cadiz"} />
+                            <ReferenceItem pic={"/img/malaga.webp"} alt={"Malaga"} />   
+                            <ReferenceItem pic={"/img/alhambra.webp"} alt={"Alhambra"} />    
+                            <ReferenceItem pic={"/beachcostadelluz.webp"} alt={"Beach in Costa del Luz"} />
                         </Slider>
                     </div>
                 </div>
