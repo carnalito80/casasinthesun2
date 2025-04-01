@@ -52,7 +52,7 @@ const References = () => {
                             <ReferenceItem pic={"/img/cadizbeach.webp"} alt={"Beach in Cadiz"} />
                             <ReferenceItem pic={"/img/malaga.webp"} alt={"Malaga"} />   
                             <ReferenceItem pic={"/img/alhambra.webp"} alt={"Alhambra"} />    
-                            <ReferenceItem pic={"/beachcostadelluz.webp"} alt={"Beach in Costa del Luz"} />
+                            <ReferenceItem pic={"/img/beachcostadelluz.webp"} alt={"Beach in Costa del Luz"} />
                         </Slider>
                     </div>
                 </div>
