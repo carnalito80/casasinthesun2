@@ -88,7 +88,7 @@ class Form extends React.Component {
   }
 
   render() {
-    const { name, subjectoffert, action, mode='default', flat='default', formMessage='Skicka oss ett meddelande via formuläret nedan:'} = this.props
+    const { name, subjectoffert, action, mode='default', flat='default', formMessage='Please send us a message here:'} = this.props
 
     return (
       <Fragment>
