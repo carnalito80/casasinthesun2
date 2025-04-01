@@ -62,9 +62,9 @@ const Home=()=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <Title title={"Welcome to Casas in the sun"} description={"your real estate agent on Costa del Sol" }size= {2}/>
+                            <Title title={"Welcome to Casas in the sun"} description={"" }size= {2}/>
                             <p>
-                            For many people it's a dream to live in Spain, especially on the Costa del Sol. While some seek to make it their permanent residence, others are in search of a holiday retreat. 
+                            For many people it's a dream to live in Spain, especially on the Costa del Sol. While some wants to make it their permanent residence, others are in search of a holiday home. 
                             With around 320 sunny days annually, easy access to the sea and beaches, a pleasant climate, mountains ideal for hiking, and healthy food, it's easy to see why so many people 
                             dream of owning a home on the Costa del Sol. During the winter months, you can even enjoy skiing in nearby locations! Most cities on the Costa del Sol have an airport nearby since you
                             have both Malaga airport and Gibraltar, ensuring convenient travel to your property upon arrival. At Casas in the sun, we are dedicated to helping you discover your ideal home.</p>
@@ -91,13 +91,13 @@ const Home=()=>{
                         <div className="col-lg-12">
                             <Title title={"Why Costa del Sol and Spain?"} />
                             <p>
-                            Spain is an amazing place to call home, and the sun-drenched Costa del Sol makes it even more enchanting. The people are warm and welcoming, frequently exchanging greetings on the streets. 
-                            Waking up to the sight of the bright blue sky, sunshine, sea, and mountains instantly boosts your mood and energy. </p>
+                            Spain is an amazing place to call home, and the sunny Costa del Sol makes it even more enchanting. The people are warm and welcoming, frequently exchanging greetings on the streets. 
+                            Waking up to the sight of the bright blue sky, sunshine, mountains and sea instantly boosts your mood and energy. </p>
                             <p>
                             Mastering the language can be a bit challenging, but locals are generally pleased when you make an effort to speak some Spanish. With a little patience, communication usually becomes smoother. 
                             Another challenge is navigating the bureaucracy. Establishing permanent residency requires visits to various offices like the town hall, police station, and social services. Although some 
                             services are available online, they can be difficult to locate and comprehend without good Spanish. Hiring assistance is an option, but you'll still need to have all the necessary 
-                            paperwork and information ready for your specific needs which we can help you with.
+                            paperwork and information ready for your specific needs.
                              </p>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ const Home=()=>{
                             <Title title={"Culture and food"} />
                             <p>
                             Andalusia is a treasure of cultural riches. In Seville, you can experience the passion of flamenco dancing. Cordoba is home to the breathtaking Mezquita, renowned for its stunning 
-                            architecture featuring red and white patterned arches and columns, along with a serene courtyard filled with orange trees and fountains. Granada captivates with the lush gardens and 
+                            architecture featuring red and white patterned arches and columns, along with a courtyard filled with orange trees and fountains. Granada captivates with the lush gardens and 
                             palaces of the Alhambra. Around Cadiz, you'll discover gorgeous sandy beaches, and during specific seasons, you can savor freshly caught tuna. Malaga offers a diverse range of museums, 
                             including the Picasso Museum, and a thriving theater scene. For those eager to visit Madrid, high-speed trains from Malaga can take you to the vibrant Spanish capital in approximately 3 hours.
                             </p>
