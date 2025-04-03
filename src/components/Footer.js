@@ -49,7 +49,7 @@ const Footer = () => {
                                 <div className="footer-info-item" ><i className="fas fa-envelope"></i></div> <span><a href="mailto:info@casainthesun.eu">info@casainthesun.eu</a></span>
                             </li>
                             <li className="d-flex">
-                                <div className="footer-info-item"><i className="fab fa-whatsapp"></i></div> <span><a href="https://wa.me/46706189324">WhatsApp</a></span>
+                                <div className="footer-info-item"><i className="fab fa-whatsapp"></i></div> <span><a href="https://wa.me/34635434306">WhatsApp</a></span>
                             </li>
                             <li className="d-flex">
                                 <div className="footer-info-item"><i className="fas fa-phone-alt"></i></div> <span><a href="tel:+34 635 43 43 06">+34 635 43 43 06</a></span>
