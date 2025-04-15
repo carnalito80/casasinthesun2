@@ -13,19 +13,45 @@
   height: 6rem;
 }
 
+.Nav--LogoLinks {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Allow this section to grow and take available space */
+}
+
 .Nav--Links {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  margin-left: 1rem; /* Adjust this value to control the space between the logo and Nav--Links */
 }
 
 .Nav--Links > * + * {
   margin-left: 1rem;
 }
 
+.Nav--Right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push this to the far right */
+}
+
+.Nav--Right .NavLink {
+  font-size: 1.5rem; /* Adjust the size of the icons */
+  color: inherit; /* Inherit the text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.Nav--Right .NavLink:hover {
+  opacity: 0.7; /* Optional: Add a hover effect */
+  text-decoration: none !important; /* Remove underline */
+}
+
+.Nav--Right > * + * {
+  margin-left: 1rem; /* Adjust the spacing between right-aligned elements as needed */
+}
+
 .Nav .Logo {
-  margin-right: 3rem;
+  margin-right: 1rem;
   position: relative;
 }
 
@@ -118,6 +144,20 @@
   }
 
   .Nav--Links {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    animation: Nav--Links 0.2s ease;
+    margin-left: 0;
+  }
+  .Nav--Right {
     display: none;
     align-items: center;
     flex-direction: column;
