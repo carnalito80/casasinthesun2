@@ -96,6 +96,7 @@ const Estepona=({version})=>{
                     </div>
                 </div>
             </section>
+            {/* <BestFlatList /> */}
             {version === "apartment" && 
             <section className="section-th"> 
                 <div className="container">

@@ -42,7 +42,7 @@ export class Navigation extends Component {
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
-          <div class="Nav--LogoLinks">
+          <div className="Nav--LogoLinks">
             <Link aria-label="Click this to return to the main page" to="/" onClick={this.handleLinkClick}>
               <Link aria-label="Main page"  to="/">
               <Logo />
@@ -54,14 +54,14 @@ export class Navigation extends Component {
               <NavLink to="/contact">Contact</NavLink>
             </div>
           </div>
-          <div class="Nav--Right">
+          <div className="Nav--Right">
        
-            <a class="NavLink" href="https://wa.me/46706189324" rel="noreferrer" target="_blank" aria-label="Contact us on WhatsApp">
-              <i class="fab fa-whatsapp"></i>
+            <a className="NavLink" href="https://wa.me/46706189324" rel="noreferrer" target="_blank" aria-label="Contact us on WhatsApp">
+              <i className="fab fa-whatsapp"></i>
             </a>
           
-            <a class="NavLink" href="tel:+34 635 43 43 06"  rel="noreferrer" target="_blank" aria-label="Call us">
-              <i class="fas fa-phone-alt"></i>
+            <a className="NavLink" href="tel:+34 635 43 43 06"  rel="noreferrer" target="_blank" aria-label="Call us">
+              <i className="fas fa-phone-alt"></i>
             </a>
           </div>
           <button

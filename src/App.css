@@ -178,6 +178,7 @@
 
 .item-image{
   overflow: hidden;  
+  position: relative;
 }
 .item-image img{
   min-height: 240px;
@@ -425,8 +426,8 @@ section {
   top: 9px;
   left: -38px;
   transform: rotate(-45deg);
-  background: crimson;
-  padding: 5px 35px;
+  background: var(--jk-theme-light);
+  padding: 10px 50px;
   font-size: 13px;
 }
 .best-estate-img-area{

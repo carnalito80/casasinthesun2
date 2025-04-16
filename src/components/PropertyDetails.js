@@ -57,7 +57,11 @@ const PropertyDetails = (dt) => {
                             </div>
                         <div className="col-lg-4 pb-2">
                             <span className="fd-price">
-                                <Price price={data.price}/>
+                                { data.available === true ?
+                                <Price price={data.price}/> :
+                                <span>
+                                <Price price={data.price}/> (Sold)</span>
+                            }
                                 </span>
                         </div>
                         {/* </div> */}
@@ -69,10 +73,11 @@ const PropertyDetails = (dt) => {
                                 <div className="fd-item">
                                     <h4>Description</h4>
                                    <div id="rich-text-body">{parse(html)}</div>
-                                   
+                                   { data.available === false && <h4> This property has been sold</h4>}
                                 </div>
                                 <div className="fd-item fd-property-detail">
                                     <h4>Details</h4>
+                                   
                                     <div className="row">
                                         <div className="col-lg-4">
                                             {city && city !== "Unknown" ? (

@@ -22,8 +22,10 @@ const FlatItem = ({data}) => {
         <div className="text-center col-lg-4 col-12 col-md-6 ">
             <Link to={destination}  className="item-title">
                 <div className="item">
+                   
                     <div className="item-image">
-                        <img className="best-estate-img" src={image.src} alt={image.alt} />
+                        <img className="" src={image.src} alt={image.alt} />
+                        { data.available === false &&  <div className={`best-estate-state bg-red`}>Sold</div> }
                         {/* <div className={`best-estate-state ${flatState ==="For Rent" ? "bg-green" : "bg-red" }`}>{flatState}</div> */}
                     </div>
                     <div className="item-description">
