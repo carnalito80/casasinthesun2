@@ -139,7 +139,7 @@ class Form extends React.Component {
         name='amne'
         
       />
-       <span>Ämne</span>
+       <span>Subject</span>
     </label>
   }
   {mode === 'flat' &&
