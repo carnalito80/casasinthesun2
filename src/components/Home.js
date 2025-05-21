@@ -38,7 +38,7 @@ const Home=()=>{
            await client.withoutUnresolvableLinks.getEntries()
                 .then(
                     (entries) => {
-                        console.log(entries)
+                        // console.log(entries)
                         // Store the data in state
                         setData(entries.items)
                     }

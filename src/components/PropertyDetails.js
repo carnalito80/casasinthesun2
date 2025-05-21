@@ -11,7 +11,7 @@ const PropertyDetails = (dt) => {
   
     let data = dt.data
     let html = ""
-    if (data.datadescription) html = documentToHtmlString(data.datadescription)
+    if (data.description) html = documentToHtmlString(data.description)
     else if (data.scrapedString) html = data.scrapedString
     else html = "<p>Property data not found</p>"
        

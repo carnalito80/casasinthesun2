@@ -4,7 +4,7 @@ import FlatItem from "./FlatItem"
 
 
 const FlatList = ({properties}) => {
-    console.log(properties)
+    //console.log(properties)
     // let dummy = {
     //     slug: "lorem-ipsum-222",
     //     title: "Titel",
