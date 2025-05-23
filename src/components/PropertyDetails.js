@@ -151,7 +151,13 @@ const PropertyDetails = (dt) => {
                                             )}       
                                         </div>
                                         <div className="col-lg-4">
-                                           
+                                             {data.gym ? (
+                                             <div>
+                                                <span>Gym:&nbsp; <span className="check">&#x2714;</span></span>
+                                            </div>
+                                            ) : (
+                                                <span></span>
+                                            )}       
                                         </div>
                                         <div className="col-lg-4">
                                           
