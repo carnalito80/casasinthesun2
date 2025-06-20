@@ -23,7 +23,7 @@ const PropertyDetails = (dt) => {
 
     return (
         <div className="flat-detail">
-            <Meta title={data.title} absoluteImageUrl = {images[0].original} canonicalLink = {`https://casainthesun.eu/properties/${data.slug}`} />
+            <Meta title={data.title} absoluteImageUrl = {images[0].original} canonicalLink = {`https://casasinthesun.eu/properties/${data.slug}`} />
                       
             {/* <div className="page-top">
                 <div className="container">

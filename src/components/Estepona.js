@@ -14,7 +14,7 @@ import Meta from "./Meta/Meta"
 const Estepona=({version})=>{
     let title = "Estepona"
     let description = "The garden of the coast."
-    let canonicalLink = 'https://casainthesun.eu/estepona'
+    let canonicalLink = 'https://casasinthesun.eu/estepona'
     if (version === "house") {
         title = "Buy housing in Estepona"
         description = "We'll help you out with you new house, and everyting that resolves around it."
@@ -22,7 +22,7 @@ const Estepona=({version})=>{
     else if (version === "apartment") {
         title ="Casas in the Sun - Apartments in Estepona"
         description = "Welcome to Estepona! Here, you'll find a nice selection of apartments."
-        canonicalLink = 'https://casainthesun.eu/apartments-estepona'
+        canonicalLink = 'https://casasinthesun.eu/apartments-estepona'
     }
     else {
         
@@ -73,7 +73,7 @@ const Estepona=({version})=>{
 
     return (
         <React.Fragment>
-            <Meta title={title} description={description} absoluteImageUrl = {'https://casainthesun.eu/img/solnedgang.webp'} canonicalLink = {canonicalLink} keywords={'apartment estepona, apartment in estepona, house estepona, house in estepona'}/>
+            <Meta title={title} description={description} absoluteImageUrl = {'https://casasinthesun.eu/img/solnedgang.webp'} canonicalLink = {canonicalLink} keywords={'apartment estepona, apartment in estepona, house estepona, house in estepona'}/>
             <Banner page={"estepona"}/>
             <section className="section-best-estate"> 
                 <div className="container">

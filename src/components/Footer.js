@@ -46,7 +46,7 @@ const Footer = () => {
                                 <div className="footer-info-item"><i className="fas fa-clock"></i></div> <span>10:00-17:00</span>
                             </li>
                             <li className="d-flex">
-                                <div className="footer-info-item" ><i className="fas fa-envelope"></i></div> <span><a href="mailto:info@casainthesun.eu">info@casainthesun.eu</a></span>
+                                <div className="footer-info-item" ><i className="fas fa-envelope"></i></div> <span><a href="mailto:info@casasinthesun.eu">info@casasinthesun.eu</a></span>
                             </li>
                             <li className="d-flex">
                                 <div className="footer-info-item"><i className="fab fa-whatsapp"></i></div> <span><a href="https://wa.me/34635434306">WhatsApp</a></span>
