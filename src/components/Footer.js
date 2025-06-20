@@ -13,9 +13,9 @@ const Footer = () => {
                             Check us out on social media
                         </span>
                         <div className="footer-social">
-                        <a href="https://www.facebook.com/profile.php?id=61573983804682" rel="nofollow noreferrer" target="_blank"><div className="footer-social-item"><i className="fab fa-facebook"></i></div></a>
+                        {/* <a href="https://www.facebook.com/profile.php?id=61573983804682" rel="nofollow noreferrer" target="_blank"><div className="footer-social-item"><i className="fab fa-facebook"></i></div></a> */}
                             {/* <div className="footer-social-item"><i className="fab fa-twitter"></i></div> */}
-                            <a href="https://www.facebook.com/profile.php?id=61573983804682" rel="nofollow noreferrer" target="_blank"><div className="footer-social-item"><i className="fab fa-instagram"></i></div></a>
+                            <a href=" https://www.instagram.com/casasinthesun?igsh=MXhjOWhkeWdzaG14dg==&utm_source=ig_contact_invite" rel="nofollow noreferrer" target="_blank"><div className="footer-social-item"><i className="fab fa-instagram"></i></div></a>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
