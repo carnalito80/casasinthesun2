@@ -38,7 +38,7 @@ const Header = () => {
                                     <Link className="nav-link" to="/" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" >Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/blog">Blog</Link>
+                                    <Link className="nav-link" to="/guides">Guides</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/about">About</Link>

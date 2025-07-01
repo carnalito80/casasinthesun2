@@ -47,7 +47,11 @@ const Marbella=({version})=>{
             //     .then((entry) => console.log(entry))
             //     .catch(console.error)
             
-           await client.withoutUnresolvableLinks.getEntries()
+           await client.withoutUnresolvableLinks.getEntries(
+              {
+                content_type: 'realEstateProperty',
+             }
+           )
                 .then(
                     (entries) => {
                         console.log(entries)

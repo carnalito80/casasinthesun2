@@ -22,7 +22,7 @@ const Footer = () => {
                         <p className="footer-title">Menu</p>
                         <ul className="footer-ul">
                             <li><Link to="/">Home</Link></li>
-                            {/* <li><Link to="/blog">Blog</Link></li> */}
+                            <li><Link to="/guides">Guides</Link></li>
                             <li><Link to="/about">About us</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>

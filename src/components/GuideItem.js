@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom"
 
-const BlogItem = ({title,link}) => {
+const GuideItem = ({title,link}) => {
     return (
         <div className="col-lg-4">
             <div className="blog-item">
@@ -22,4 +22,4 @@ const BlogItem = ({title,link}) => {
     )
 }
 
-export default BlogItem
+export default GuideItem
