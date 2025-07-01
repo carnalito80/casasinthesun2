@@ -318,11 +318,9 @@
 }
 .footer-social{
   display: flex;
- 
 }
 .footer-social a{
   text-decoration-line: none;
- 
 }
 .footer-social-item{
   width: 45px;
