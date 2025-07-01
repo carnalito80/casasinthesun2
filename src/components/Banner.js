@@ -57,6 +57,10 @@ const Banner = ({page}) => {
         banner = b1
         banner_mobile = bm1
     }
+     else if (page === "guides") {
+        banner = b1
+        banner_mobile = bm1
+    }
     else if (page === "notfound") {
         banner = b5
         banner_mobile = bm5

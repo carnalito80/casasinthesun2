@@ -629,6 +629,15 @@ section {
   font-size: 13px;
   color: #757575;
 }
+.blog-img {
+    min-height: 240px;
+    width: 100%;
+    max-height: 240px;
+    object-fit: cover;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 .blog-info-item:nth-child(1){
   margin-right: 15px;
 }

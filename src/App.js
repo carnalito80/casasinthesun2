@@ -10,11 +10,12 @@ import Estepona from "./components/Estepona"
 import Marbella from './components/Marbella';
 import Malaga from "./components/Malaga"
 import Guides from "./components/Guides"
-import BlogDetail from "./components/BlogDetail"
+// import BlogDetail from "./components/BlogDetail"
 import {BrowserRouter as Router,Route, Switch} from "react-router-dom";
 import Notfound from './components/Notfound';
 import Nav from './components/Nav'
 import ScrollToTop from './helpers/ScrollToTop';
+import GuideWrap from "./components/GuideWrap"
  
 
 function App() {
@@ -51,7 +52,7 @@ function App() {
             <Malaga version={""} />
           </Route>
           <Route path="/guides" exact component={Guides}></Route>
-          <Route path="/guides/:id"  component={BlogDetail}></Route>
+          <Route path="/guides/:id"  component={GuideWrap}></Route>
           <Route path="/properties" exact component={Home}></Route>
           <Route path="/properties/:slug"  component={PropertyWrap}></Route>
           <Route component={Notfound} ></Route>
