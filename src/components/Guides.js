@@ -76,17 +76,7 @@ const Guides=()=>{
                     </div>
            
             )}
-                    <div className="row"> 
-                        {/* <GuideItem link="blog-1" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
-                        <GuideItem link="blog-2" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
-                        <GuideItem link="blog-3" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/> */}
-                        {/* <GuideItem link="blog-4" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
-                        <GuideItem link="blog-5" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
-                        <GuideItem link="blog-6" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
-                        <GuideItem link="blog-7" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
-                        <GuideItem link="blog-8" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
-                        <GuideItem link="blog-9" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/> */}
-                    </div>
+                  
                 </div>
             </div>
         </section>

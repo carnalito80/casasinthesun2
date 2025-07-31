@@ -22,7 +22,7 @@ const Footer = () => {
                         <p className="footer-title">Menu</p>
                         <ul className="footer-ul">
                             <li><Link to="/">Home</Link></li>
-                            {/* <li><Link to="/guides">Guides</Link></li> */}
+                            <li><Link to="/guides">Guides</Link></li>
                             <li><Link to="/about">About us</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                         </ul>
@@ -56,16 +56,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    {/*<div className="col-lg-3 col-md-6">
-                        <p className="footer-title">Subscribe</p>
-                        <span className="footer-other-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna
-                        </span>
-                        <div className="subscribe-area mb-2 mt-2">
-                            <input type="text" placeholder="Email" className="inp-footer w-100" />
-                        </div>
-                        <button className="btn-subscribe">Subscribe</button>
-                    </div>*/}
+                 
 
                 </div>
             </div>
