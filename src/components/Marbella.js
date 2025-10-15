@@ -122,10 +122,17 @@ const Marbella=({version})=>{
                     <div className="row">
                         <div className="col-lg-12">
                              <Title title={"Apartments in Marbella"} size= {3}/>
-                            <p>A property in Marbella is a good investment. If you want to have walking distance to a lot of restaurants, shops etc an apartment in the city center is a good option. But it's other good areas too that offers
-                            plenty and with a car you can easy reach everything and have more to choose from. You can find a wonderful apartment in Marbella in areas as the cosy town of San Pedro de Alcántara or areas as Nueva Andalucia, Elviria, Puerto Banus
-                            or Monte Paraiso. </p>
-                           
+                            <p>Marbella is a city that attracts people from all over the world, home to more than 150 nationalities living side by side. Buying an apartment here is not only a smart investment, 
+                                but also an opportunity to become part of a vibrant, international community. The city perfectly combines modern luxury with authentic Andalusian charm.</p>
+                           <p>In the city of Marbella you find a lot of apartments just next to Casco Antiguo, the enchanting old town. With its whitewashed houses, flower-filled balconies, and narrow cobbled streets, 
+                            it feels almost like stepping into a classic Spanish film. The lively squares buzz with life, filled with the scent of tapas and the sound of laughter and music. Just a short stroll away, 
+                            the seaside promenade offers stylish restaurants, boutiques, and a relaxed beach lifestyle all year round.</p>
+                            <p>Between Marbella town and Puerto Banús stretches the famous Golden Mile, a palm-lined coastal road dotted with some of Costa del Sol’s most iconic hotels, luxury villas, and exclusive beach clubs, 
+                                where the sea is never far away.</p>
+                            <p>In Puerto Banús it´s glamour and sophistication. Along the marina, designer boutiques sit next to glistening yachts, and when the sun sets, the area comes alive with vibrant nightlife. It’s the 
+                                perfect blend of Mediterranean charm and cosmopolitan elegance.</p>
+                            <p>A little further west lies San Pedro de Alcántara, a relaxed town with a truly Spanish soul. Here, local traditions blend seamlessly with an international lifestyle. The seafront promenade is ideal 
+                                for peaceful morning walks, while the town center offers bustling markets, tapas bars, and a warm, welcoming atmosphere all year round.</p>
                            
                         </div>
                     </div>
