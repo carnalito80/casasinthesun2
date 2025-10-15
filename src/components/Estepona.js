@@ -117,8 +117,8 @@ const Estepona=({version})=>{
                     <div className="row">
                         <div className="col-lg-12">
                              <Title title={"Apartment in Estepona"} size= {3}/>
-                            <p>Living in Estepona, whether in an apartment or a house, means enjoying life in a wonderful small town with sunshine and warmth almost all year round. It feels like being on holiday all the time with plenty of activies to do on the beach and mountains close by and
-                                a wide range of restaurants. After school or work, you can go for a swim, visit a playground, or engage in other activities, all while enjoying the sun and light throughout the year, a enjoyable way to live!
+                            <p>Owning a home in Estepona means embracing a wonderful small-town lifestyle with sunshine and warmth almost all year round. Life here feels like an endless holiday – with beaches, restaurants and outdoor activities in both the mountains and the sea. When work or school is done for the day, 
+                                there’s still time for a swim, a walk on the promenade or a moment in the sun. It’s a truly beautiful way to live.
                             </p>
                             <p>If you want to live in the center, you can find apartments in the old town or Casco Antigou as you say in Spanish and its surroundings. There are also houses available in the old town for those interested in larger accommodations. The harbor area offers many apartments and a lof of 
                                 them offers sea views.
@@ -126,8 +126,14 @@ const Estepona=({version})=>{
                             <p>A fairly new built area with apartments in Estepona is Las Mesas, located on a hill. Nearby, on Calle Francia opposite Lidl, there is a market every Wednesday selling vegetables, fruits, flowers, clothes, handbags, spices etc. Las Mesas also features a popular gym and many padel courts. 
                                 Close to Las Mesas is an area called Seghers, where you can find many large houses with gardens.
                             </p>
-                            <p>Just outside the city of Estepona, there are many different areas with both houses and apartments. These areas are often called urbanizations and typically come with their own gardens and pools. Some urbanizations are located next to a golf course, perfect for golf enthusiasts.
+                            <p>Estepona is a big municipality and outside the main town are a number of beautifully planned residential communities, often known as urbanisations. These gated areas usually feature shared gardens, swimming pools and a relaxed, family-friendly atmosphere. 
                             </p>  
+                            <p>Just a short drive from the center lies Valle Romano, surrounded by greenery and located right next to a golf course. It’s an ideal choice for those who want to live close to town while still enjoying nature and tranquility with the golf course quite literally on your doorstep.</p>
+                            <p>Further west, the peaceful areas of Buenas Noches and Bahía Dorada offer a serene coastal lifestyle with both houses and apartments close to the beach and sea.</p>
+                            <p>Above Estepona town rise the hills and mountains, where you can find plots and villas with breathtaking views of the coastline. It’s a perfect spot for those who value peace, greenery and a sense of escape from the city and traffic.</p>
+                            <p>To the east lies Selwo, an area with newer, modern homes and a calm, natural setting. It’s quiet yet conveniently close to both Estepona and Marbella.Nearby is Cancelada, a charming little village with its own selection of restaurants and shops. It’s small, peaceful and perfect for those 
+                                who want everything within easy reach but prefer a slower pace of life.</p>
+                            <p>Between Cancelada and Marbella stretches the New Golden Mile, famous for its luxurious, contemporary homes and prime seaside location. Many properties here enjoy stunning views of the Mediterranean and unforgettable sunsets.</p>
                         </div>
                     </div>
                 </div>    
