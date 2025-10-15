@@ -142,14 +142,18 @@ const Marbella=({version})=>{
                                 When buying a property in Marbella, it’s worth considering what matters most in your everyday life perhaps proximity to the sea, a golf course, or your children’s school. For families, Marbella 
                                 offers a wide selection of both Spanish and international schools. </p>
                             <p>Just a few minutes from Puerto Banús lies Nueva Andalucía a lush, tranquil oasis. This area mixes beautiful golf courses with elegant villas with views of both the sea and the mountains. It has long been a favorite for families 
-                                looking for a relaxed yet exclusive lifestyle. In the hills above is La Quinta, an exclusive residential area known for its renowned golf course and peaceful, natural surroundings. From here, you can enjoy breathtaking views of 
+                                looking for a relaxed yet exclusive lifestyle.</p> 
+                            <p>In the hills above is La Quinta, an exclusive residential area known for its renowned golf course and peaceful, natural surroundings. From here, you can enjoy breathtaking views of 
                                 the Mediterranean and the valley below, the perfect retreat for those looking for serenity and harmony.</p>
                             <p>To the west you find Guadalmina, divided into Alta (upper) and Baja (lower), you’ll find a mix of houses and apartments. Guadalmina Baja is close to the beach and features large villas surrounded 
-                                by lush greenery, while Guadalmina Alta offers golf courses, restaurants, and a more laid-back atmosphere. Above Marbella town lies Sierra Blanca, offering panoramic views over both the city and the sea, with the majestic La Concha mountain 
-                                as a backdrop. This is one of Marbella’s most prestigious areas, home to villas of the highest standard and exceptional privacy. Nearby Marbella lies Los Monteros, an exclusive and peaceful area where luxury villas and boutique hotels are 
+                                by lush greenery, while Guadalmina Alta offers golf courses, restaurants, and a more laid-back atmosphere.</p> 
+                            <p>Above Marbella town lies Sierra Blanca, offering panoramic views over both the city and the sea, with the majestic La Concha mountain 
+                                as a backdrop. This is one of Marbella’s most prestigious areas, home to villas of the highest standard and exceptional privacy.</p> 
+                            <p>Nearby Marbella lies Los Monteros, an exclusive and peaceful area where luxury villas and boutique hotels are 
                                 tucked among palm trees along the shoreline. This is also where you’ll find the legendary Los Monteros Hotel, an icon of Marbella’s golden era.</p>
                             <p>To the east of Marbella are several popular neighborhoods. Elviria stands out for its natural beauty, pine forests, and golden beaches. It’s home to the famous Nikki Beach Club and offers a wonderful balance between holiday vibes and 
-                                comfortable everyday living, ideal for both permanent residents and second-home owners. Further east, Cabopino charms with its small marina, cozy restaurants, and relaxed, almost bohemian atmosphere. The beach at Cabopino is considered one 
+                                comfortable everyday living, ideal for both permanent residents and second-home owners.</p> 
+                            <p>Further east, Cabopino charms with its small marina, cozy restaurants, and relaxed, almost bohemian atmosphere. The beach at Cabopino is considered one 
                                 of the most beautiful along the entire Costa del Sol, with soft sand, natural dunes, and crystal-clear water.</p>
                             <p>Marbella truly offers something for everyone from vibrant city life to peaceful beachside retreats and scenic mountain views. No matter which area you choose, a lifestyle filled with sunshine, culture, and the best of the Mediterranean awaits.</p>
                                 
