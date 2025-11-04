@@ -116,7 +116,7 @@ const Marbella=({version})=>{
                 </div>
             </section>
             }
-             {version ===  "house) && 
+             {version === "house && 
             <section className="section-th"> 
                 <div className="container">
                     <div className="row">
