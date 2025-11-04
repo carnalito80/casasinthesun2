@@ -29,10 +29,10 @@ const About = () => {
                                         Om Oss
                                 </div>
                                     <div className="about-text">
-                                    <p>Vi är ett erfaret och engagerat team med många års kunskap om marknaden. Efter att ha bott och arbetat på Costa del Sol under lång tid, har vi en djup förståelse för både området och den lokala miljön.</p>
-                                    <p>Vår service präglas av professionalism, helhetstänk och vänlighet. Vi erbjuder en komplett lösning, där vi stöder dig genom hela processen – från att hitta rätt bostad till att avsluta köpet.</p>
-                                    <p>Din trygghet och tillfredsställelse är viktig för oss. Vi strävar efter att ge den service vi själva skulle önska vid ett bostadsköp. Vårt mål är att du ska känna dig nöjd och att du gärna rekommenderar oss vidare till vänner och bekanta – eller återvänder vid ditt nästa bostadsköp.</p>
-                                    <p>Då vet vi att vi har gjort ett bra jobb! Har du några frågor? Tveka inte att höra av dig, vi svarar gärna på alla dina funderingar.</p>
+                                    <p>We on <a href="https://www.casasinthesun.eu/"target="_blank">casasinthesun</a> collaborate with several experienced real estate agents who have extensive knowledge of the market. We are dedicated professionals who are truly passionate about what we do. Having lived and worked on the Costa del Sol for many years, we have developed a deep understanding of both the area and the local community.</p>
+                                    <p>We want to give you a professionell service and support you through the whole process – guiding you through the process, from finding the right property to finalizing the purchase.</p>
+                                    <p>Your security and satisfaction are our top priorities. We always strive to provide the same level of care and service that we would expect ourselves when buying a home. Our goal is for you to feel so pleased with your experience that you recommend us to friends and family – or choose to return when it’s time for your next property purchase. That’s when we know we’ve done our job well.</p>
+                                    <p>Do you have any questions? Don’t hesitate to get in touch – we’re always happy to help.</p>
 
                                     {/* <p>Vi är ett litet team med många års kunskap om marknaden. Vi har bott och arbetat på Costa del Sol i många år med att erbjuda våra tjänster och har hög kunskap om området och miljön.</p>
                                     <p>Det är viktigt med service som är professionell, heltäckande och kamratlig. Dessa kvaliteter hittar du hos oss. Vi erbjuder en helhets lösning och är med hela vägen från att hitta en lämplig bostad tills köpet är klart.</p>

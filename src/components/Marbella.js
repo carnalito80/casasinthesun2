@@ -102,15 +102,29 @@ const Marbella=({version})=>{
                     </div>
                 </div>
             </section>
-            { (version === "apartment" || version === "house") && 
+            {version === "apartment" && 
             <section className="section-th"> 
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img src="/img/apelsintrad.webp" fetchpriority="low" alt="orange tree" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
+                            <img src="/img/beachumbrellas.webp" fetchpriority="low" alt="beach umbrellas" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/palmer och hus.webp" fetchpriority="low" alt="palms and houses" className="w-75 rounded mx-auto mt-4" />
+                            <img src="/img/laalameda.webp" fetchpriority="low" alt="la alameda" className="w-75 rounded mx-auto mt-4" />
+                         </div>
+                    </div>
+                </div>
+            </section>
+            }
+             {version ===  "house) && 
+            <section className="section-th"> 
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <img src="/img/playamarbella.webp" fetchpriority="low" alt="playa marbella" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
+                        </div>
+                        <div className="col-lg-6">
+                            <img src="/img/streetmarbella.webp" fetchpriority="low" alt="street marbella" className="w-75 rounded mx-auto mt-4" />
                          </div>
                     </div>
                 </div>
