@@ -11,12 +11,12 @@ import * as contentful from "contentful"
 import Meta from "./Meta/Meta"
 
 
-const Estepona=({version})=>{
-    let title = "Estepona"
-    let description = "The garden of the coast."
-    let canonicalLink = 'https://casasinthesun.eu/estepona'
+const Sotogrande=({version})=>{
+    let title = "Sotogrande"
+    let description = "Exclusive, scenic and relaxing"
+    let canonicalLink = 'https://casasinthesun.eu/sotogrande'
     if (version === "house") {
-        title = "Buy housing in Estepona"
+        title = "Buy housing in Sotogrande"
         description = "We'll help you out with you new house, and everyting that resolves around it."
     }
     else if (version === "apartment") {
@@ -50,7 +50,7 @@ const Estepona=({version})=>{
            await client.withoutUnresolvableLinks.getEntries(
             {
                 content_type: 'realEstateProperty',
-                'fields.city[in]': 'estepona'
+                'fields.city[in]': 'sotogrande'
              }
            )
                 .then(
@@ -73,72 +73,54 @@ const Estepona=({version})=>{
 
     return (
         <React.Fragment>
-            <Meta title={title} description={description} absoluteImageUrl = {'https://casasinthesun.eu/img/solnedgang.webp'} canonicalLink = {canonicalLink} keywords={'apartment estepona, apartment in estepona, house estepona, house in estepona'}/>
-            <Banner page={"estepona"}/>
+            <Meta title={title} description={description} absoluteImageUrl = {'https://casasinthesun.eu/img/solnedgang.webp'} canonicalLink = {canonicalLink} keywords={'apartment sotogrande, apartment in sotogrande, house sotogrande, house in sotogrande'}/>
+            <Banner page={"sotogrande"}/>
             <section className="section-best-estate"> 
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <Title title={"Estepona"} description={"The garden of Costa del Sol"} size= {2}/>
-                            <p>Estepona or the Garden of Costa del Sol, has become very popular in recent years. It is a cozy, genuinely Spanish town located about 80 kilometers from Malaga with approximately 70,000 inhabitants. Estepona is 
-                                located approximately 80 kilometers from Malaga and 50 kilometers from Gibraltar, so there are two airports within a reasonable distance. In the old town, you can stroll the narrow streets with white houses on either side. 
-                                Flowers hang on the walls along most streets, often in the same type of pot throughout the entire street. Here, you will find many cafés, restaurants, bars and shopping opportunities.
+                            <Title title={"Sotogrande"} description={"Exclusive, scenic and relaxing"} size= {2}/>
+                            <p>Nestled within the municipality of San Roque in the province of Cádiz, Sotogrande is one of Spain’s most prestigious and exclusive residential communities. Surrounded by the natural beauty of Andalusia, this serene coastal 
+                                enclave offers a perfect balance of tranquillity, sophistication, and accessibility.
                             </p>
-                            <p>La Rada is a long sandy beach and stretches through the entire town. Here you can enjoy the a day in the sun, take a walk or jog, work out at one of the outdoor gyms, or grab something to eat or drink at one 
-                                of the many Chiringuitos. Here you can also find chess to play and a big playground for children. During the summer months it's a lot of activity a long the beach walk with festivals, smaller concerts and every evening it's a market
-                                here and various entertainments for children. 
+                            <p>With a house in Sotogrande, you can wake up to the Mediterranean on one side and rolling hills on the other – a rare harmony of sea and nature. Despite its peaceful atmosphere, Sotogrande is ideally located: just 15 minutes from Gibraltar, 
+                                40 minutes from Marbella, and around an hour from Málaga Airport.
                             </p>
-                            <p>You can also find Mirador del Carmen a long the beach walk where you can visit an art exhibition in Sala Mirador del Carmen or you can go up to the 12th floor to enjoy a drink in Cielo Skybar or just watch the views.
-                               In the harbor, you can see fishing boats, shop at the fish auction on certain days of the week, or simply sit and enjoy a good drink or meal at one of the restaurants or bars. There is also a market every Sunday where clothes, jewelry, 
-                               handbags, toys, etc., are sold. Not far from the harbor you find the beach Playa del Cristo that is perfect for families since it is located in a bay and has shallow water.
+                            <p>Sotogrande is divided into several distinct areas – La Reserva, Sotogrande Alto, Sotogrande Costa, and Marina Sotogrande – each offering its own charm, from hillside villas with panoramic views to waterfront apartments overlooking 
+                                the marina.
                             </p>
+                            <p>The area is world-renowned for its golf courses, including the legendary Valderrama Golf Club, La Reserva, Real Club Sotogrande, and Almenara Golf. Sports enthusiasts can also enjoy padel, tennis, and polo at the famous Ayala Polo Club.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* <BestFlatList /> */}
-            {version === "apartment" && 
-            <section className="section-th"> 
+             <section className="section-th"> 
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img src="/img/cascoantigou.webp" fetchpriority="low" alt="street in casco antigou" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
+                            <img src="/img/viewsotogrande.webp" fetchpriority="low" alt="viewoversotogrande" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/plazaantoniaguerrero.webp" fetchpriority="low" alt="plaza antonia guerrero" className="w-75 rounded mx-auto mt-4" />
-                         </div>
+                            <img src="/img/sotograndeport.webp" fetchpriority="low" alt="sotograndeport" className="w-75 rounded mx-auto mt-4" />
+                        </div>
                     </div>
                 </div>
             </section>
-            }
-            {version === "apartment" && 
-            <section className="section-best-estate"> 
+             <section className="section-best-estate"> 
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                             <Title title={"Apartment in Estepona"} size= {3}/>
-                            <p>Owning a home in Estepona means embracing a wonderful small-town lifestyle with sunshine and warmth almost all year round. Life here feels like an endless holiday – with beaches, restaurants and outdoor activities in both the mountains and the sea. When work or school is done for the day, 
-                                there’s still time for a swim, a walk on the promenade or a moment in the sun. It’s a truly beautiful way to live.
-                            </p>
-                            <p>If you want to live in the center, you can find apartments in the old town or Casco Antigou as you say in Spanish and its surroundings. There are also houses available in the old town for those interested in larger accommodations. The harbor area offers many apartments and a lof of 
-                                them offers sea views.
-                            </p>
-                            <p>A fairly new built area with apartments in Estepona is Las Mesas, located on a hill. Nearby, on Calle Francia opposite Lidl, there is a market every Wednesday selling vegetables, fruits, flowers, clothes, handbags, spices etc. Las Mesas also features a popular gym and many padel courts. 
-                                Close to Las Mesas is an area called Seghers, where you can find many large houses with gardens.
-                            </p>
-                            <p>Estepona is a big municipality and outside the main town are a number of beautifully planned residential communities, often known as urbanisations. These gated areas usually feature shared gardens, swimming pools and a relaxed, family-friendly atmosphere. 
-                            </p>  
-                            <p>Just a short drive from the center lies Valle Romano, surrounded by greenery and located right next to a golf course. It’s an ideal choice for those who want to live close to town while still enjoying nature and tranquility with the golf course quite literally on your doorstep.</p>
-                            <p>Further west, the peaceful areas of Buenas Noches and Bahía Dorada offer a serene coastal lifestyle with both houses and apartments close to the beach and sea.</p>
-                            <p>Above Estepona town rise the hills and mountains, where you can find plots and villas with breathtaking views of the coastline. It’s a perfect spot for those who value peace, greenery and a sense of escape from the city and traffic.</p>
-                            <p>To the east lies Selwo, an area with newer, modern homes and a calm, natural setting. It’s quiet yet conveniently close to both Estepona and Marbella.Nearby is Cancelada, a charming little village with its own selection of restaurants and shops. It’s small, peaceful and perfect for those 
-                                who want everything within easy reach but prefer a slower pace of life.</p>
-                            <p>Between Cancelada and Marbella stretches the New Golden Mile, famous for its luxurious, contemporary homes and prime seaside location. Many properties here enjoy stunning views of the Mediterranean and unforgettable sunsets.</p>
+                            <p>Along the coast, golden sandy beaches stretch for over two kilometres, offering breathtaking views of the Rock of Gibraltar and the coast of Africa. At Trocadero Beach Club you can indulge in water sports, or have a cocktail as the sun sets over the horizon.</p>
+                            <p>For a touch of luxury and leisure, La Reserva Club invites you to spend a day at its stunning man-made lagoon, enjoy fine dining, or simply relax in an exclusive Mediterranean setting.</p>
+                            <p>The Sotogrande Marina is the social heart of the area, featuring designer boutiques, interior design stores, art galleries, and a selection of top-rated restaurants.</p> 
+                            <p>Every Sunday, a lively market fills the marina with local products and artisan goods and during the summer months, a charming evening market with food stalls and children’s activities adds to the area’s vibrant atmosphere. </p>
+                            <p>Families will find excellent educational options here, including the Sotogrande International School (ages 3–18), which follows the British International Baccalaureate Curriculum, and the smaller International Montessori School, offering the renowned Montessori approach.</p>
+                            <p>Sotogrande truly captures the essence of luxurious coastal living – where elegance, comfort, and nature coexist in perfect harmony.</p>
                         </div>
                     </div>
-                </div>    
+                </div>
             </section>
-            }
+        
             {loading ? (
                 <p>Loading data...</p>
             ) : (
@@ -152,4 +134,4 @@ const Estepona=({version})=>{
     )
 }
 
-export default Estepona;
+export default Sotogrande;

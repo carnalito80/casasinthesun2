@@ -70,11 +70,15 @@ const Home=()=>{
                             <p>
                             For many people it's a dream to live in Spain, especially on the Costa del Sol. While some wants to make it their permanent residence, others are in search of a holiday home. 
                             With around 320 sunny days annually, easy access to the sea and beaches, a pleasant climate, mountains ideal for hiking, and healthy food, it's easy to see why so many people 
-                            dream of owning a home on the Costa del Sol. During the winter months, you can even enjoy skiing in nearby locations! Most cities on the Costa del Sol have an airport nearby since you
+                            dream of owning a home on the Costa del Sol.</p> 
+                            <p>
+                            During the winter months, you can even enjoy skiing in nearby locations! Most cities on the Costa del Sol have an airport nearby since you
                             have both Malaga airport and Gibraltar, ensuring convenient travel to your property upon arrival. At Casas in the sun, we are dedicated to helping you discover your ideal home.</p>
                             <p>
                             We provide a diverse selection of property types, including apartments, houses, townhouses, and new developments on the Costa del Sol. We focus on your preferences and needs, 
-                            aiming to find the perfect residence just for you. When selecting a property, think about what amenities you want nearby, such as schools, beaches, shops, restaurants and golf courses. 
+                            aiming to find the perfect residence just for you.</p> 
+                            <p>
+                            When selecting a property, think about what amenities you want nearby, such as schools, beaches, shops, restaurants and golf courses. 
                             Our agents possess in-depth knowledge of these areas and will guide you in finding the perfect match. We support you throughout the entire process of locating your dream home!
                              </p>
                         </div>
@@ -99,8 +103,9 @@ const Home=()=>{
                             Waking up to the sight of the bright blue sky, sunshine, mountains and sea instantly boosts your mood and energy. </p>
                             <p>
                             Mastering the language can be a bit challenging, but locals are generally pleased when you make an effort to speak some Spanish. With a little patience, communication usually becomes smoother. 
-                            Another challenge is navigating the bureaucracy. Establishing permanent residency requires visits to various offices like the town hall, police station, and social services. Although some 
-                            services are available online, they can be difficult to locate and comprehend without good Spanish. Hiring assistance is an option, but you'll still need to have all the necessary 
+                            Another challenge is navigating the bureaucracy. Establishing permanent residency requires visits to various offices like the town hall, police station, and social services.</p> 
+                            <p>
+                            Although some services are available online, they can be difficult to locate and comprehend without good Spanish. Hiring assistance is an option, but you'll still need to have all the necessary 
                             paperwork and information ready for your specific needs.
                              </p>
                         </div>
@@ -126,8 +131,9 @@ const Home=()=>{
                             <Title title={"Culture and food"} />
                             <p>
                             Andalusia is a treasure of cultural riches. In Seville, you can experience the passion of flamenco dancing. Cordoba is home to the breathtaking Mezquita, renowned for its stunning 
-                            architecture featuring red and white patterned arches and columns, along with a courtyard filled with orange trees and fountains. Granada captivates with the lush gardens and 
-                            palaces of the Alhambra. Around Cadiz, you'll discover gorgeous sandy beaches, and during specific seasons, you can savor freshly caught tuna. Malaga offers a diverse range of museums, 
+                            architecture featuring red and white patterned arches and columns, along with a courtyard filled with orange trees and fountains.</p> 
+                            <p>
+                            Granada captivates with the lush gardens and palaces of the Alhambra. Around Cadiz, you'll discover gorgeous sandy beaches, and during specific seasons, you can savor freshly caught tuna. Malaga offers a diverse range of museums, 
                             including the Picasso Museum, and a thriving theater scene. For those eager to visit Madrid, high-speed trains from Malaga can take you to the vibrant Spanish capital in approximately 3 hours.
                             </p>
                             <p>
@@ -157,9 +163,12 @@ const Home=()=>{
                             <Title title={"Activities outside"} />
                             <p>
                             The Costa del Sol is home to a variety of beaches that cater to every taste along its stunning coastline. Whether you're looking for family-friendly spots or locations perfect for young adults 
-                            and water sports enthusiasts, you'll find it here. For those in search of luxury and glamour there are several beach clubs in Marbella like Ocean Beach, NOSSO, LUUMA, Nikki Beach and in Estepona
-                            you have the newly opened Sublim Beach Club and close by the Alcazaba Lagoon. If you're after a more relaxed and budget-friendly experience, the area offers an abundance of Chiringuitos and beachside restaurants 
-                            to enjoy. Additionally, the Atlantic coast is just a short drive away, offering beautiful beaches around Cadiz, Tarifa, El Palmar, Bolonia and Zahar de los Atunes for a perfect day trip.
+                            and water sports enthusiasts, you'll find it here.</p> 
+                            <p>
+                            For those in search of party and glamour there are several beach clubs in Marbella like Ocean Beach, NOSSO, LUUMA, Nikki Beach and in Estepona you find the newly opened EVA, Sublim Beach Club, 
+                            Nido and the Alcazaba Lagoon. If you're after a more relaxed and budget-friendly experience, the area offers an abundance of Chiringuitos and beachside restaurants to enjoy.</p> 
+                            <p>
+                            Additionally, the Atlantic coast is just a short drive away, offering beautiful beaches around Cadiz, Tarifa, El Palmar, Bolonia and Zahar de los Atunes for a perfect day trip.
                             </p>
                             <p>
                             When you're not soaking up the sun, the Costa del Sol offers a wealth of activities, including golf, kitesurfing, padel and hiking through mountains or rivers. If you're visiting in winter, you can hit the 

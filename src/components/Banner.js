@@ -8,6 +8,7 @@ import b4 from "../img/bouganville.webp"
 import b5 from "../img/banner3.jpg"
 import b6 from "../img/strand.webp"
 import b7 from "../img/casares.webp"
+import b8 from "../img/sotograndecanal.webp"
 
 import bm1 from "../img/nerja_mobile.webp"
 import bm2 from "../img/laconcha_mobile.webp"
@@ -16,6 +17,7 @@ import bm4 from "../img/bouganville_mobile.webp"
 import bm5 from "../img/banner3_mobile.webp"
 import bm6 from "../img/strand_mobile.webp"
 import bm7 from "../img/casares.webp"
+import bm8 from "../img/sotograndecanal_mobile.webp"
 
 import Meta from "./Meta/Meta"
 
@@ -66,6 +68,10 @@ const Banner = ({page}) => {
      else if (page === "casares") {
         banner = b7
         banner_mobile = bm7
+    }
+    else if (page === "sotogrande") {
+        banner = b8
+        banner_mobile = bm8
     }
     else if (page === "notfound") {
         banner = b5
