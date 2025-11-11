@@ -9,6 +9,7 @@ import ContactPage from "./components/ContactPage/ContactPage"
 import Estepona from "./components/Estepona"
 import Marbella from './components/Marbella';
 import Malaga from "./components/Malaga"
+import Sotogrande from "./components/Sotogrande"
 import Guides from "./components/Guides"
 // import BlogDetail from "./components/BlogDetail"
 import {BrowserRouter as Router,Route, Switch} from "react-router-dom";
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="/estepona">
             <Estepona version={""} />
+          </Route>
+          <Route path="/sotogrande">
+            <Sotogrande version={""} />
           </Route>
           <Route path="/houses-malaga">
             <Malaga version={"house"} />
