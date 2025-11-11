@@ -98,7 +98,7 @@ const Sotogrande=({version})=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img src="/img/viewsotogrande.webp" fetchpriority="low" alt="viewoversotogrande" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
+                            <img src="/img/viewsotogrande.webp" fetchpriority="low" alt="viewoversotogrande" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                         </div>
                         <div className="col-lg-6">
                             <img src="/img/sotograndeport.webp" fetchpriority="low" alt="sotograndeport" className="w-75 rounded mx-auto mt-4" />
