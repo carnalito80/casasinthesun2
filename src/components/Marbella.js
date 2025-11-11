@@ -112,7 +112,7 @@ const Marbella=({version})=>{
                             <img src="/img/beachumbrellas.webp" fetchpriority="low" alt="beach umbrellas" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/laalameda.webp" fetchpriority="low" alt="la alameda" className="w-75 rounded mx-auto mt-4" />
+                            <img src="/img/laalameda.webp" fetchpriority="low" alt="la alameda" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                          </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ const Marbella=({version})=>{
                             <img src="/img/playamarbella.webp" fetchpriority="low" alt="playa marbella" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/streetmarbella.webp" fetchpriority="low" alt="street marbella" className="w-75 rounded mx-auto mt-4" />
+                            <img src="/img/streetmarbella.webp" fetchpriority="low" alt="street marbella" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                          </div>
                     </div>
                 </div>

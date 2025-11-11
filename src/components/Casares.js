@@ -86,7 +86,7 @@ const Casares=({version})=>{
                             <img src="/img/casaresstreet.webp" fetchpriority="low" alt="street in casares" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/casaresvillage.webp" fetchpriority="low" alt="casares" className="w-75 rounded mx-auto mt-4" />
+                            <img src="/img/casaresvillage.webp" fetchpriority="low" alt="casares" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                         </div>
                     </div>
                 </div>
