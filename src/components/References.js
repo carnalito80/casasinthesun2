@@ -53,6 +53,14 @@ const References = () => {
                             <ReferenceItem pic={"/img/malaga.webp"} alt={"Malaga"} />   
                             <ReferenceItem pic={"/img/alhambra.webp"} alt={"Alhambra"} />    
                             <ReferenceItem pic={"/img/beachcostadelluz.webp"} alt={"Beach in Costa del Luz"} />
+                            <ReferenceItem pic={"/img/cascoantigou.webp"} alt={"Street in Casco Antigou"} />
+                            <ReferenceItem pic={"/img/plazaantoniaguerrero.webp"} alt={"Plaza Antonia Guerrero"} /> 
+                            <ReferenceItem pic={"/img/beachumbrellas.webp"} alt={"Beach umbrellas"} /> 
+                            <ReferenceItem pic={"/img/laalameda.webp"} alt={"La Alameda"} /> 
+                            <ReferenceItem pic={"/img/playamarbella.webp"} alt={"Playa in Marbella"} /> 
+                            <ReferenceItem pic={"/img/streetmarbella.webp"} alt={"Street in Marbella"} /> 
+                            <ReferenceItem pic={"/img/viewsotogrande.webp"} alt={"View Sotogrande"} /> 
+                            <ReferenceItem pic={"/img/sotograndeport.webp"} alt={"Sotogrande port"} /> 
                         </Slider>
                     </div>
                 </div>
