@@ -51,6 +51,7 @@ export class Navigation extends Component {
             <div className="Nav--Links">
               <NavLink to="/estepona">Estepona</NavLink>
               <NavLink to="/marbella">Marbella</NavLink>
+              <NavLink to="/sotogrande">Sotogrande</NavLink>
               <NavLink to="/contact">Contact</NavLink>
             </div>
           </div>

@@ -105,10 +105,10 @@ const Estepona=({version})=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img src="/img/cascoantigou.webp" fetchpriority="low" alt="street in casco antigou" className="w-75 rounded mx-auto mt-2rounded mx-auto mt-4" />
+                            <img src="/img/cascoantigou.webp" fetchpriority="low" alt="street in casco antigou" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                         </div>
                         <div className="col-lg-6">
-                            <img src="/img/plazaantoniaguerrero.webp" fetchpriority="low" alt="plaza antonia guerrero" className="w-75 rounded mx-auto mt-4" />
+                            <img src="/img/plazaantoniaguerrero.webp" fetchpriority="low" alt="plaza antonia guerrero" className="w-75 rounded d-block d-md-inline mx-auto mx-md-0 mt-4" />
                          </div>
                     </div>
                 </div>
