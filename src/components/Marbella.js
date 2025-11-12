@@ -79,22 +79,21 @@ const Marbella=({version})=>{
                     <div className="row">
                         <div className="col-lg-12">
                             <Title title={"Marbella"} description={"Luxury, glamour, nature and family life in Marbella"} size= {2}/>
-                            <p>Marbella located next to the Mediterranean Sea, boasts a pleasent microclimate throughout the year, making it an ideal destination at any time. The city offers a good combination of attractions and activities to suit various interests.</p>
-                            <p>In the city center of Marbella you will find the old town or Casco antiguo that is a lovely area where you can walk through narrow streets lined with white houses. There are many shops to visit with local crafts and fashion. You'll find 
-                                many restaurants serving both local and international cuisine.</p> 
-                            <p>Sit down for a while at Plaza de los Naranjos, this charmning square is perfect for people-watching and admiring the beautiful orange trees.</p> 
+                            <p>Marbella located next to the Mediterranean Sea, boasts a pleasent microclimate throughout the year, making it an ideal destination at any time. The city offers a good combination of attractions and activities to suit various interests.
+                               In the city center of Marbella you will find the old town or Casco antiguo that is a lovely area where you can walk through narrow streets lined with white houses. There are many shops to visit with local crafts and fashion. You'll find 
+                                many restaurants serving both local and international cuisine.Sit down for a while at Plaza de los Naranjos, this charmning square is perfect for people-watching and admiring the beautiful orange trees.</p> 
                             <p>Marbella also has many beautiful beaches, which provide both relaxation and water activities. Luxurious beach clubs offers a glamorous setting for enjoying the sun, sea, and excellent service.</p> 
-                            <p>The city is home to a various range of restaurants, for all tastes and budgets. If you are a gourmet you can find four restaurants that have received a Michelin star!</p>
-                            <p>Marbella is perfect for outdoor activities since it's good weather almost every day. For example there are numerous hiking trails around Marbella with stunning views of the coast and surrounding landscape.</p> 
-                            <p>Marbella is also a paradise for golfer's with several great golf courses. Paddle sports are very popular, with many facilities available for both beginners and experienced players. </p>
+                               The city is home to a various range of restaurants, for all tastes and budgets. If you are a gourmet you can find four restaurants that have received a Michelin star!
+                            <p>Marbella is perfect for outdoor activities since it's good weather almost every day. For example there are numerous hiking trails around Marbella with stunning views of the coast and surrounding landscape.
+                               Marbella is also a paradise for golfer's with several great golf courses. Paddle sports are very popular, with many facilities available for both beginners and experienced players. </p>
                             <p>The shopping center "La Cañada" offers a comprehensive shopping experience and it's easy to access by bus or car. The center have a variety of shops, restaurants, cafés, a cinema and a bowling alley, you can find entertainment for all ages.
                                 </p>
-                            <p>Puerto Banus is a part of Marbella that offers a blend of luxuary, relaxation, entertainment, and high-end shopping. Start your day at one of the cafés, where you can enjoy the stunning view of the harbour while enjoying your morning coffee.</p> 
-                            <p> In Puerto Banus you find a wide selection of restaurants, offering a variety of cuisines. For those who enjoy a lively nightlife, there are bars and nightclubs where you can dance the night away and enjoy the atmosphere.</p> 
+                            <p>Puerto Banus is a part of Marbella that offers a blend of luxuary, relaxation, entertainment, and high-end shopping. Start your day at one of the cafés, where you can enjoy the stunning view of the harbour while enjoying your morning coffee. 
+                               In Puerto Banus you find a wide selection of restaurants, offering a variety of cuisines. For those who enjoy a lively nightlife, there are bars and nightclubs where you can dance the night away and enjoy the atmosphere.</p> 
                                <p>During the day you can shop in one of the many designer stores such as Luis Vuitton, Michael Kors, Gucci, Dolce & Gabbana or visit the large department store El Corte Inglés. 
                               </p>
                             <p>The village of Benahavis located about 20 kilometers from Marbella, is a charming and tranquil mountain village between the mountains and lush greenery.</p> 
-                            <p>Benahavis is famous for its exceptional traditional Andalusian cuisine. The restaurants offers a wide range of high-quality dishes made with locally grown ingredients.</p> 
+                               Benahavis is famous for its exceptional traditional Andalusian cuisine. The restaurants offers a wide range of high-quality dishes made with locally grown ingredients.
                             <p>Golfer's find several great golf courses in and around Benahavis, offering stunning views. The village is surrounded by beautiful hiking trails in the mountains perfect for exploring 
                                 the natural landscape and enjoying the fresh air. Benahavis is perfect if you want tranquility mixed  with excellent food, scenic views, and plenty of outdoor activities. 
                             </p>
