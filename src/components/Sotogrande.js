@@ -110,10 +110,10 @@ const Sotogrande=({version})=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <p>Along the coast, golden sandy beaches stretch for over two kilometres, offering breathtaking views of the Rock of Gibraltar and the coast of Africa. At Trocadero Beach Club you can indulge in water sports, or have a cocktail as the sun sets over the horizon.</p>
-                            <p>For a touch of luxury and leisure, La Reserva Club invites you to spend a day at its stunning man-made lagoon, enjoy fine dining, or simply relax in an exclusive Mediterranean setting.</p>
-                            <p>The Sotogrande Marina is the social heart of the area, featuring designer boutiques, interior design stores, art galleries, and a selection of top-rated restaurants.</p> 
-                            <p>Every Sunday, a lively market fills the marina with local products and artisan goods and during the summer months, a charming evening market with food stalls and children’s activities adds to the area’s vibrant atmosphere. </p>
+                            <p>Along the coast, golden sandy beaches stretch for over two kilometres, offering breathtaking views of the Rock of Gibraltar and the coast of Africa. At Trocadero Beach Club you can indulge in water sports, or have a cocktail as the sun sets over the horizon.
+                               For a touch of luxury and leisure, La Reserva Club invites you to spend a day at its stunning lagoon, enjoy fine dining, or simply relax in an exclusive Mediterranean setting.</p>
+                            <p>The Sotogrande Marina is the social heart of the area, featuring designer boutiques, interior design stores, art galleries, and a selection of top-rated restaurants.
+                               Every Sunday, a lively market fills the marina with local products and artisan goods and during the summer months, a charming evening market with food stalls and children’s activities adds to the area’s vibrant atmosphere. </p>
                             <p>Families will find excellent educational options here, including the Sotogrande International School (ages 3–18), which follows the British International Baccalaureate Curriculum, and the smaller International Montessori School, offering the renowned Montessori approach.</p>
                             <p>Sotogrande truly captures the essence of luxurious coastal living – where elegance, comfort, and nature coexist in perfect harmony.</p>
                         </div>
