@@ -26,7 +26,7 @@ const About = () => {
                             <div className="col-lg-6">
                                 <div>
                                     <div className="title">
-                                        Om Oss
+                                        About us
                                 </div>
                                     <div className="about-text">
                                     <p>We on <a href="https://www.casasinthesun.eu/"target="_blank">casasinthesun</a> collaborate with several experienced real estate agents who have extensive knowledge of the market. We are dedicated professionals who are truly passionate about what we do. Having lived and worked on the Costa del Sol for many years, we have developed a deep understanding of both the area and the local community.</p>
