@@ -24,7 +24,7 @@ const About = () => {
                                 <img src="/img/malaga.webp" alt="malaga" className="w-100" />
                             </div>
                             <div className="col-lg-6">
-                                <div className="about-item">
+                                <div>
                                     <div className="title">
                                         Om Oss
                                 </div>
