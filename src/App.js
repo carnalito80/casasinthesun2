@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 import Home from "./components/Home"
 // import Contact from "./components/Contact"
 import ContactPage from "./components/ContactPage/ContactPage"
-// import About from "./components/About"
+import About from "./components/About"
 import Estepona from "./components/Estepona"
 import Marbella from './components/Marbella';
 import Malaga from "./components/Malaga"
